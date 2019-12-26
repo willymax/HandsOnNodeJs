@@ -29,9 +29,6 @@ module.exports = class Product {
                 console.log(err)
             })
         })
-        fs.readFile(p, (err, fileContent) => {
-            
-        })
     }
 
     static fetchAll(cb) {
